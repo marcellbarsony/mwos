@@ -12,7 +12,7 @@ const startMenu = () => {
 
 startMenu();
 
-// Clock
+// System clock
 
 function showTime(){
     var date = new Date();
