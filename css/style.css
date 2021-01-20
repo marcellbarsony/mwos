@@ -51,16 +51,18 @@
     border-right-color: rgba(255, 255, 255, 0.75);
     border-bottom-color: rgba(255, 255, 255, 0.75);
     border-left-color: rgba(15, 15, 15, 0.75);
+    /* Font size - to encounter whitespace "bug" */
+    font-size: 0px;
 }
 
-.system-tray-container{
+.tray-container{
     background-color: blue;
-    width: 100%;
+    display: inline-block;
     height: 100%;
-    margin-right: 79px;
+    font-size: 0px;
 }
 
-.system-tray-container ul li{
+.tray-container ul li{
     list-style-type: none;
     display: inline-block;
 }
@@ -68,21 +70,19 @@
 .contact{
     height: 25px;
     width: 25px;
-    background-color: yellow;
-    margin: auto;
-    display: block;
-
+    background-color: lightgray;
+    display: inline-block;
 }
 
 /* Clock */
 
-.system-tray-clock-container{
-    background-color: rgba(190, 190, 190, 1);
-    width: 75px;
+.clock-container{
+    background-color: lightgray;
+    display: inline-block;
     height: 100%;
-    position: absolute;
-    right: 0px;
-    top: 0px;
+    flex-direction: column;
+    font-size: 10px;
+    vertical-align: top;
 }
 
 .clock {
@@ -197,10 +197,10 @@
     color: white;
     border-style: solid;
     border-width: 1px;
-    border-top-color: rgba(15, 15, 15, 0.33);
-    border-right-color: rgba(255, 255, 255, 0.75);
-    border-bottom-color: rgba(255, 255, 255, 0.75);
-    border-left-color: rgba(15, 15, 15, 0.33);
+    border-top-color: rgba(15, 15, 15, 0.25);
+    border-right-color: rgba(255, 255, 255, 0.25);
+    border-bottom-color: rgba(255, 255, 255, 0.25);
+    border-left-color: rgba(15, 15, 15, 0.25);
 }
 
 .label{
