@@ -60,6 +60,7 @@
     display: inline-block;
     height: 100%;
     font-size: 0px;
+    margin-left: 4px;
 }
 
 .tray-container ul li{
@@ -71,15 +72,16 @@
 .contact{
     height: 25px;
     width: 25px;
-    background-color: lightgray;
-    display: inline-block;
+    background-color:  rgba(190, 190, 190, 1);
+    display: flex;
     text-align: center;
+    align-items: center;
 }
 
 /* Clock */
 
 .clock-container{
-    background-color: lightgray;
+    background-color:  rgba(190, 190, 190, 1);
     display: inline-block;
     height: 100%;
     flex-direction: column;
