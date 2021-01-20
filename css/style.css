@@ -65,6 +65,7 @@
 .tray-container ul li{
     list-style-type: none;
     display: inline-block;
+    vertical-align: top;
 }
 
 .contact{
@@ -72,6 +73,7 @@
     width: 25px;
     background-color: lightgray;
     display: inline-block;
+    text-align: center;
 }
 
 /* Clock */
