@@ -1,4 +1,4 @@
-// Start menu button functions
+// Start menu button
 
 const startMenu = () => {
     const button = document.querySelector('.start-menu-button');
@@ -52,3 +52,17 @@ function showTime(){
 }
 
 showTime();
+
+// Documents click
+
+const documentsClick = () => {
+    const gomb = document.querySelector('.documents-click');
+    const szub = document.querySelector('.submenu-documents');
+
+    gomb.addEventListener('click', () => {
+        szub.classList.toggle('submenu-documents-active');
+        gomb.classList.toggle('menu-item-container:hover');
+    }); 
+}
+
+documentsClick();
