@@ -12,6 +12,18 @@ const startMenu = () => {
 
 startMenu();
 
+// Run alert
+
+const runAlert = () => {
+    const running = document.querySelector('.run');
+
+    running.addEventListener('click', () => {
+        alert("There is nowhere you can run");
+    }); 
+}
+
+runAlert();
+
 // System clock
 
 function showTime(){
