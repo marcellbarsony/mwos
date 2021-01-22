@@ -200,6 +200,13 @@
     position: relative;
     left: 35px;
     list-style-type: none;
+    /* No select */
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer & Edge */
+            user-select: none; /* Chrome & Opera */
 }
 
 .menu-item-container:hover{
@@ -228,6 +235,22 @@
     display: table-cell;
     padding-left: 10px;
     vertical-align: middle;
+}
+
+.arrow{
+    background-color: rgba(180, 180, 180, 0);
+    display: table-cell;
+    height: 100%;
+    padding-right: 5px;
+    font-size: 8px;
+    vertical-align: middle;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-top-color: rgba(15, 15, 15, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    border-left-color: rgba(15, 15, 15, 0);
 }
 
 .menu-item-icon-graphic{
@@ -260,8 +283,6 @@ Desktop icons
     height: 100%;
 }
 */
-
-
 
 
 
