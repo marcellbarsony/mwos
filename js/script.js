@@ -58,10 +58,13 @@ showTime();
 const documentsClick = () => {
     const gomb = document.querySelector('.documents-click');
     const szub = document.querySelector('.submenu-documents');
+    const gombok = document.querySelector('menu-item-container'); //BROKEN
 
     gomb.addEventListener('click', () => {
         szub.classList.toggle('submenu-documents-active');
         gomb.classList.toggle('menu-item-container:hover');
+        gomb.classList.toggle('stay-highlighted');  // Stay highlighted
+        gombok.classList.remove('menu-item-container:hover'); //BROKEN: do not allow highlight for other buttons
     }); 
 }
 
