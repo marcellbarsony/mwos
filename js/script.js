@@ -53,7 +53,7 @@ function showTime(){
 
 showTime();
 
-// Documents click
+/* Documents click
 
 const documentsClick = () => {
     const gomb = document.querySelector('.documents-click');
@@ -69,3 +69,5 @@ const documentsClick = () => {
 }
 
 documentsClick();
+
+*/

@@ -1,0 +1,45 @@
+// Variables
+
+$background-color: linear-gradient(140deg, #b22dff, #2838c5 120%);
+
+$primary-color:  #b9b9b9; // Taskbar & Start menu
+$seconday-color: #bebebe; // Tray
+
+$text-color: #000000;
+
+// Maps
+
+$font-sizes:(
+    "small": 7px,
+    "medium": 12px,
+    "large": 16px
+);
+
+// Nesting
+
+
+
+// mwos
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.mwos{
+    background: $background-color; //background
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    font-size: map-get($font-sizes, medium); //font size
+    color: $text-color; //text color
+}
+
+.mwos-build{
+    color: #dedede;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    font-size: 14px;
+}
