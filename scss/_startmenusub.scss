@@ -1,0 +1,26 @@
+/// Start menu sub items ///
+
+.submenu-documents{
+    display: table;
+    background-color: rgba(180, 180, 180, 1);
+    /*Position*/
+    position: fixed;
+    left: 170px;
+    top: 153px;
+    /*Dimensions*/
+    width: 160px;
+    height: 200px;
+    /*Border*/
+    border-color:
+    hsla(0,0%,100%,.75)
+    rgba(15,15,15,.75) 
+    rgba(15,15,15,.75) 
+    hsla(0,0%,100%,.75);
+    border-style: solid;
+    border-width: 2px;
+    transform: translateX(-1000%);
+}
+
+.submenu-documents-active{
+    transform: translateX(0%);
+}

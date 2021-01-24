@@ -1,9 +1,12 @@
-// Import
+/// Import ///
 
 @import './config';
 @import './variables';
+@import './tray'; // System tray & Start menu button & Contacts & Clock
+@import './startmenu'; // Start menu
+@import './startmenusub'; // Start menu sub
 
-// mwos
+/// mwos ///
 
 .mwos{
     background: $background-color; //background

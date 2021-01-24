@@ -1,0 +1,120 @@
+/// System tray ///
+
+.tray{
+    background-color:rgb(185, 185, 185);
+    display: flex;
+    justify-content: space-around;
+    height: 34px;
+    align-items: center;
+    /*Border*/
+    border-style: solid;
+    border-width: 2px;
+    border-color: hsla(0,0%,100%,.75);
+    border-top-color: rgba(185, 185, 185, 1);
+    border-right-color:  rgba(200, 200, 200, 1);
+    border-bottom-color:  rgba(215, 215, 215, 1);
+    border-left-color: rgba(215, 215, 215, 1);
+}
+
+.system-tray{
+    background-color: rgba(190, 190, 190, 1);
+    /*Dimensions*/
+    height: 27px;
+    /*Position*/
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    /*Border*/
+    border-style: solid;
+    border-width: 1px;
+    border-top-color: rgba(15, 15, 15, 0.75);
+    border-right-color: rgba(255, 255, 255, 0.75);
+    border-bottom-color: rgba(255, 255, 255, 0.75);
+    border-left-color: rgba(15, 15, 15, 0.75);
+    /* Font size - to encounter whitespace "bug" */
+    font-size: 0px;
+}
+
+/// Contacts ///
+
+.tray-container{
+    background-color: blue;
+    display: inline-block;
+    height: 100%;
+    font-size: 0px;
+    margin-left: 4px;
+}
+
+.tray-container ul li{
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contact{
+    height: 25px;
+    width: 25px;
+    background-color:  rgba(190, 190, 190, 1);
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+/// Clock ///
+
+.clock-container{
+    background-color:  rgba(190, 190, 190, 1);
+    display: inline-block;
+    height: 100%;
+    flex-direction: column;
+    font-size: 10px;
+    vertical-align: top;
+}
+
+.clock {
+    position: relative;
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+/// Start menu button ///
+
+.start-menu-button{
+    background-color: rgba(190, 190, 190, 1);
+    /*Border*/
+    border-style: solid;
+    border-width: 2px;
+    border-top-color: rgba(255, 255, 255, 0.75);
+    border-right-color: rgba(15, 15, 15, 0.75);
+    border-bottom-color: rgba(15, 15, 15, 0.75);
+    border-left-color: rgba(255, 255, 255, 0.75);
+    /*Dimensions*/
+    width: 70px;
+    height: 28px;
+    /*Position*/
+    position: absolute;
+    left: 3px;
+    top: 3px;
+}
+
+.start-menu-icon{
+    height: 16px;
+    width: 58px;
+    margin-top: 4px;
+    margin-left: 4px;
+    background-color:darkgray;
+}
+
+.start-menu-button-active{
+    border-style: solid;
+    border-width: 2px;
+    border-top-color: rgba(15, 15, 15, 0.75);
+    border-right-color: rgba(255, 255, 255, 0.75);
+    border-bottom-color: rgba(255, 255, 255, 0.75);
+    border-left-color: rgba(15, 15, 15, 0.75);
+    background-color: rgba(170, 170, 170, 1);
+}
