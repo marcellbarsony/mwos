@@ -1,12 +1,12 @@
-# mwos
+## mwos
 Classic Windows & Retrowave-themed personal website project
 
-Hall of Fame:
+#### Hall of Fame
 
 > Special thanks to the open-source software & Stack Overflow community.
 
-Resources:
+#### Resources
 
-> Google Firebase
+- https://firebase.google.com/
 
-> devhints.io
+- https://devhints.io/
